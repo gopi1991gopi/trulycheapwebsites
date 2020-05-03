@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   color: #444444;
 }
 
@@ -913,8 +913,9 @@ section {
 # F.A.Q
 --------------------------------------------------------------*/
 .faq {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("../img/faq-bg.jpg") center center;
+  background-size: cover;
   padding: 60px 0;
-}
 
 .faq .faq-list {
   padding: 0;
@@ -928,7 +929,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #3a27a8;
+  font-family: #ffffff;
   font-size: 18px;
   font-weight: 500;
 }
@@ -946,15 +947,15 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #3a27a8;
+  color: #ffffff;
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #ffffff;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #3a27a8;
+  color: #ffffff;
 }
 
 .faq .faq-list a.collapsed i::before {
