@@ -251,11 +251,11 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 15px;
+  bottom: 375px;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: #d9d627;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
