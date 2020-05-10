@@ -244,18 +244,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #ad9f00;
 }
 
 .mobile-nav {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 300px;
+  bottom: 315px;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #d9d627;
+  background: black;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #493c3e;
+  color: white;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
